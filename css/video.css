@@ -1,0 +1,38 @@
+@charset "UTF-8";
+.content article h3 {
+  font-size: 1em;
+  text-align: center;
+}
+@media screen and (max-width:480px) {
+  .contentVideo {
+    width: 96%;
+    margin: 1% 2% 3%;
+  }
+  .youtubeVideo {
+    width: 96%;
+    margin: 1% 2% 3%;
+  }
+}
+
+@media screen and (min-width:481px) and (max-width:768px) {
+  .contentVideo {
+    width: 70%;
+    margin: 1% 15% 3%;
+  }
+  .youtubeVideo {
+    width: 70%;
+    margin: 1% 15% 3%;
+  }
+}
+
+@media screen and (min-width:769px) {
+  .contentVideo {
+    width: 60%;
+    margin: 1% 20% 3%;
+  }
+  .youtubeVideo {
+    width: 60%;
+    height: 430px;
+    margin: 1% 20% 3%;
+  }
+}

@@ -1,0 +1,10 @@
+<!--HTML für Suchmaschienen-->
+        <meta name="author" content="Alpensport">
+        <meta name="publisher" content="Alpensport">
+        <meta name="copyright" content="Mindbomb-Medien">
+        <meta name="description" content="AlpenSport Total - Skischule, Skiverleih und Eventagentur in Garmisch- Partenkirchen. In unserem Skiverleih und Snowboardverleih finden Sie immer die">
+        <meta name="keywords" content="Skisport, Snowboarden, Berge, Piste, Dachsten, Ramsau, Alpen">
+        <meta name="page-topic" content="Reise Tourismus">
+        <meta name="page-type" content="Bericht Reportage">
+        <meta name="audience" content="Alle">
+        <meta name="robots" content="index, follow">

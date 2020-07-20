@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body {
+  background-image: url(../img/background_handy.jpg);
+}
+.container {
+  width: 96%;
+  margin: 0 2%;
+}
+a.nachOben {
+  bottom: 4.5%;
+  left: 85.5%;
+}
+.head {
+  width: 100%;
+  height: 210px;
+  background-image: url(../img/header_handy.jpg);
+}
+.logo {
+  padding: 5px 0;
+  width: 100%;
+  font-size: 87.5%;
+}
+.logo h1 {
+  font-size: 185%;
+  padding-bottom: 5px;
+}
+.navi {
+  width: 100%;
+  /*für wirklich extrem kleine Displays, erzeugt ein Srollbar und somit eine Scrollmöglichkeit*/
+  overflow: auto;
+  padding-top: 5px;
+}
+.navi ul li a {
+  display: block;
+  font-size: 80%;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  padding: 0.83em 0;
+  /* CSS Hack, um es in Google Chrome anzupassen*/
+  -webkit-padding-before: 0.87em;
+  -webkit-padding-after: 0.87em;
+}
+.content {
+  overflow: auto;
+}
+.content h2 {
+  margin: 10px 0;
+  font-size: 1.3em;
+}
+.content h3 {
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+.content h4 {
+  margin: 10px 0 8px;
+  font-size: 0.9em;
+}
+.content1, .content2, .content3, .foot {
+  width: 96%;
+  padding: 2.5% 2%;
+}
+.foot {
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+}
+.foot h2, .foot h3 {
+  font-size: 0.9em;
+}
+.foot address {
+  margin: 8px 0 5px;
+  font-size: 0.9em;
+}
+.foot aside {
+  margin-bottom: 5px;
+  font-size: 0.9em;
+}
+nav.metanavi a {
+  font-size: 0.9em;
+  line-height: 1.8em;
+}
+
+
+
+
+
+
+
+
+
+/* Ende */

@@ -1,0 +1,145 @@
+@charset "UTF-8";
+body {
+  background-image: url(../img/background-pc.jpg);
+}
+.container {
+  width: 88%;
+  padding: 0 6%;
+  max-width: 77em;
+  margin: 0 auto;
+}
+a.nachOben {
+  bottom: 4.5%;
+  left: 80%;
+}
+.head {
+  width: 100%;
+  height: 9.375em;
+  background-image: url(../img/header.jpg);
+  -webkit-background-size: cover;
+  background-size: cover;
+  margin: 0.938em 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  border-radius: 0.625em 0.625em 0 0;
+  display: flex;
+}
+.logo {
+  z-index: 1000;
+  -moz-transform: scale(1) rotate(-9deg) skewX(-9deg) skewY(-9deg);
+  -webkit-transform: scale(1) rotate(-9deg) skewX(-9deg) skewY(-9deg);
+  -o-transform: scale(1) rotate(-9deg) skewX(-9deg) skewY(-9deg);
+  -ms-transform: scale(1) rotate(-9deg) skewX(-9deg) skewY(-9deg);
+  transform: scale(1) rotate(-9deg) skewX(-9deg) skewY(-9deg);
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.25+0,0.6+100 */
+background: -moz-linear-gradient(top, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.6) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.6) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0.6) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#40000000', endColorstr='#99000000',GradientType=0 ); /* IE6-9 */
+flex: 1;
+-webkit-border-radius: 0.8em;
+border-radius: 0.8em;
+width: auto;
+padding: 0.5em 0.8em 1.1em 0.613em;
+margin: 6.9em 0 0 2.8em;
+}
+.logo:hover, .logo:active {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#637792+0,000000+100&0.9+0,0.5+100 */
+background: -moz-linear-gradient(top, rgba(99,119,146,0.9) 0%, rgba(0,0,0,0.5) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, rgba(99,119,146,0.9) 0%,rgba(0,0,0,0.5) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, rgba(99,119,146,0.9) 0%,rgba(0,0,0,0.5) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6637792', endColorstr='#80000000',GradientType=0 ); /* IE6-9 */
+}
+.logo h1 {
+  font-size: 4.5em;
+  margin-bottom: 3%;
+}
+.logo figcaption {
+  font-size: 1.5em;
+}
+.navi {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 0.825em;
+}
+.navi ul li {
+  display: inline-block;
+}
+.logo, .navi ul li a {
+  font-size: 0.55em;
+  display: block;
+  font-weight: bold;
+}
+.navi ul li a {
+  padding: 0.6em 0.5em;
+  width: 5em;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0 0 0.825em 0.825em;
+  font-size: 1.2em;
+}
+.content {
+  overflow: auto;
+}
+.content h2 {
+  margin: 0.625em 0;
+  font-size: 1.3em;
+}
+.content h3 {
+  margin-bottom: 0.5em;
+  font-size: 1.1em;
+}
+.content h4 {
+  margin: 0.625em 0 0.5em;
+  font-size: 1em;
+}
+.content-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content1, .content2, .content3 {
+  flex: 1;
+  margin: 1em 1.5em;
+  min-width: 18em;
+  /* Automatische Silebentrennung ACHTUNG geht noch nicht in Chrome nur Firefox */
+  /* text-align: justify;
+  hyphens: auto;
+  word-spacing: -3px; */
+}
+.foot {
+  width: 96%;
+  padding: 2.5% 2%;
+  margin: 0.625em 0 1.9em;
+  -webkit-border-radius: 0 0 0.625em 0.625em;
+  border-radius: 0 0 0.625em 0.625em;
+}
+.foot h2, .foot h3 {
+  font-size: 1em;
+}
+.foot address {
+  margin: 0.500em 0 0.313em;
+  font-size: 0.95em;
+}
+.foot aside {
+  margin-bottom: 0.313em;
+  font-size: 0.95em;
+}
+nav.metanavi a {
+  font-size: 0.95em;
+  line-height: 1.8em;
+}
+@media screen and (max-width: 1024px) {
+    a.nachOben {
+        left: 89%;
+    }
+}
+
+
+
+
+/* Ende */

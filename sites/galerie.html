@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="apple-touch-icon" sizes="57x57" href="../img/favicon/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="../img/favicon/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="../img/favicon/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="../img/favicon/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="../img/favicon/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="../img/favicon/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="../img/favicon/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="../img/favicon/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="../img/favicon/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="../img/favicon/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon/favicon-16x16.png">
+  <link rel="manifest" href="../img/favicon/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="../img/favicon/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <title>Alpensport Galerie</title>
+  <link href="../css/import.css" rel="stylesheet">
+  <link href="../css/lightbox.css" rel="stylesheet">
+  <script type="text/javascript">
+    window.addEventListener("scroll", function(event) {
+      var top = window.pageYOffset || document.documentElement.scrollTop;
+      var elemTop = document.getElementsByClassName("nachOben")[0];
+      if (top > 50) {
+        elemTop.style.visibility = "visible";
+      } else {
+        elemTop.style.visibility = "hidden";
+      }
+    });
+  </script>
+  <!-- Browserweiche (Hack) -->
+  <!--erlernt alte IE HTML5 Tags-->
+  <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+  <!-- Beginn Container -->
+  <div class="container">
+    <!-- Ziel für Button -->
+    <a id="top"></a>
+    <!-- Button nach Oben -->
+    <a href="#top" class="nachOben"></a>
+    <!-- Beginn Header -->
+    <header class="head">
+      <!-- Beginn Logo -->
+      <a href="../index.html">
+        <figure class="logo">
+          <h1>Alpensport</h1>
+          <figcaption>eine Alpensport-Webseite rund um Ramsau</figcaption>
+        </figure>
+      </a>
+      <!-- Ende Logo -->
+      <!-- Beginn HauptNavi -->
+      <nav class="navi">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="video.html">Video</a></li>
+          <li><a href="#galerie.html">Galerie</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+      <!-- Ende HauptNavi -->
+    </header>
+    <!-- Ende Header -->
+    <!-- Beginn Hauptinhalt -->
+    <main class="content">
+      <section>
+        <h2>Eindrücke von Ramsau</h2>
+        <article>
+          <h3>Unsere Highlights</h3>
+          <div class="galerie">
+            <a href="../img/galerie/002.jpg" data-lightbox="roadtrip" title="Bergsteigen in Ramsau">
+              <img src="../img/galerie/002_small.jpg" alt="Bergsteigen in Ramsau">
+            </a>
+            <a href="../img/galerie/003.jpg" data-lightbox="roadtrip" title="Gondel auf den Dachstein">
+              <img src="../img/galerie/003_small.jpg" alt="Gondel auf den Dachstein">
+            </a>
+            <a href="../img/galerie/004.jpg" data-lightbox="roadtrip" title="Bergsteigen in Ramsau">
+              <img src="../img/galerie/004_small.jpg" alt="Bergsteigen in Ramsau">
+            </a>
+            <a href="../img/galerie/005.jpg" data-lightbox="roadtrip" title="Aussichtsplattform Dachstein">
+              <img src="../img/galerie/005_small.jpg" alt="Aussichtsplattform Dachstein">
+            </a>
+            <a href="../img/galerie/010.jpg" data-lightbox="roadtrip" title="Restaurant Dachstein">
+              <img src="../img/galerie/010_small.jpg" alt="Restaurant Dachstein">
+            </a>
+            <a href="../img/galerie/016.jpg" data-lightbox="roadtrip" title="Sonnenuntergang">
+              <img src="../img/galerie/016_small.jpg" alt="Sonnenuntergang">
+            </a>
+            <a href="../img/galerie/030.jpg" data-lightbox="roadtrip" title="Dachstein">
+              <img src="../img/galerie/030_small.jpg" alt="Dachstein">
+            </a>
+            <a href="../img/galerie/002.jpg" data-lightbox="roadtrip" title="Bergsteigen in Ramsau">
+              <img src="../img/galerie/002_small.jpg" alt="Bergsteigen in Ramsau">
+            </a>
+          </div>
+        </article>
+      </section>
+    </main>
+    <footer class="foot">
+      <section>
+        <h2>Kontakt</h2>
+        <article>
+          <h3>Kontaktadresse</h3>
+          <address>
+            <p>Alpensport in Raumsau Tourismusmarketing GmbH<br>
+              Ramsauerstraße 745<br>
+              8970 Schladming<br>
+              Österreich</p>
+          </address>
+          <aside>
+            Sie können uns eine E-Mail schreiben über das
+            <a href="kontakt.html">Kontaktformular</a>
+          </aside>
+          <nav class="metanavi">
+            <ul>
+              <li>
+                <a href="impressum.html">Impressum</a>
+              </li>
+              <li>
+                <a href="datenschutz.html">Datenschutzerklärung</a>
+              </li>
+            </ul>
+          </nav>
+        </article>
+      </section>
+    </footer>
+    <!-- Ende Hauptinhalt -->
+  </div>
+  <!-- Ende Container -->
+  <script src="../js/lightbox-plus-jquery.js" type="text/javascript"></script>
+</body>
+
+</html>

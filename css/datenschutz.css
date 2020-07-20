@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.content {
+  width: 96%;
+  padding: 2%;
+  overflow: inherit;
+}
+.content h2 {
+  margin: 0.625em 0;
+  font-size: 1.3em;
+}
+.content h3 {
+  margin: 1em 0 0.625em;
+}
+.content a, nav.jumpmenu ol li a  {
+  word-break: break-all;
+}
+nav.jumpmenu {
+  margin: 1em 0;
+  border: 1px solid #607890;
+}
+nav.jumpmenu ol {
+  list-style-type: decimal;
+  padding: 10px 35px;
+}
+nav.jumpmenu ol li {
+  line-height: 1.7em;
+  color: #607890;
+}
+@media screen and (min-width:481px) {
+  nav.jumpmenu {
+    width: 455px;
+  }
+}

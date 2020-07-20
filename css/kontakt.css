@@ -1,0 +1,102 @@
+@charset "UTF-8";
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #F00;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #000;
+   opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #000;
+   opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #000;
+}
+:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+  color: #000;
+}
+select, input, textarea {
+  background-color: rgba(255, 255, 255, 0.6);
+  box-sizing: border-box;
+  padding: 5px 2px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+select {
+  font-size: 0.8em;
+  padding: 8px 2px;
+}
+.formbox p {
+  padding: 10px 0;
+}
+.formrow {
+  display: flex;
+}
+.formrow label {
+  flex: 0.3;
+  padding: 7px 10px 0 0;
+}
+.formrow select {
+  flex: 0.7;
+}
+.formrow input {
+  flex: 0.7;
+}
+.formrow textarea {
+  flex: 0.7;
+  resize: none;
+  min-height: 150px;
+  margin-bottom: 10px;
+}
+.radiocheck input {
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+.button {
+  display: flex;
+}
+.button label {
+  flex: 0.3;
+  padding: 7px 10px 0 0;
+  visibility: hidden;
+}
+.button input {
+  flex: 0.4;
+  background-color: #AAB3C2;
+}
+/* Smartphone */
+@media screen and (max-width:480px) {
+  .formbox {
+    width: 96%;
+    margin: 0 2%;
+  }
+}
+/* Tablet */
+@media screen and (min-width:481px) and (max-width:768px) {
+  .formbox {
+    width: 80%;
+    margin: 0 10%;
+  }
+  .button input {
+    flex: 0.25;
+  }
+}
+/* Desktop PC */
+@media screen and (min-width:769px) {
+  .formbox {
+    width: 60%;
+    margin: 0 20%;
+  }
+  .button input {
+    flex: 0.2;
+  }
+}
+
+
+
+
+
+
+
+/* Ende */

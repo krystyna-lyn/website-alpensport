@@ -1,0 +1,20 @@
+/* WebKit, Blink, Edge */
+
+    ::-webkit-input-placeholder {
+        color: #354260;
+    }
+
+    /* firefox 19+ */
+
+    ::-moz-placeholder {
+        color: #354260;
+    }
+
+    /* ie */
+
+    :-ms-input-placeholder {
+        color: #354260;
+    }
+        input:-moz-placeholder {
+        color: #354260;
+    }
