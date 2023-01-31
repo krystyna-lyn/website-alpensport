@@ -88,9 +88,7 @@ select {
     width: 60%;
     margin: 0 20%;
   }
-  .button input {
-    flex: 0.2;
-  }
+
 }
 
 
